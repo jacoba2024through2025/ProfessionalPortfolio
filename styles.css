@@ -1,0 +1,343 @@
+/* Animation Control */
+
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(1.25em);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Typewriter effect */
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 36ch;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.icon-spacing {
+  margin-right: 0.4em;
+}
+
+.john {
+  margin-left: 0.4em;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37vh;
+  background-color: rgb(49, 43, 43);
+  box-shadow: 0.5em 0.5em 3.75em coral;
+  width: 100vw;
+}
+
+.dont {
+  margin-left: 1em;
+}
+
+.contained {
+  background-color: rgb(62, 61, 61);
+  font-family: "Courier New", Courier, monospace;
+  color: coral;
+}
+
+.phone {
+  margin: 0;
+}
+
+.email {
+  margin: 0;
+}
+
+/*  */
+
+.first {
+  color: coral;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid rgb(49, 43, 43);
+  width: 0; /* Initially hidden */
+  animation: typewriter 4s steps(40, end) 1s 1 normal both,
+    blink 0.75s step-end infinite;
+}
+h1.program {
+  font-family: monospace;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 0.2em;
+  font-size: 8.5em;
+  background-color: rgb(49, 43, 43);
+  color: coral;
+  margin-left: 2em;
+  margin-right: 2em;
+  border-radius: 15%;
+  animation: fadeInSlideUp 2s ease-out;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: rgb(62, 61, 61);
+  width: 100vw;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(49, 43, 43);
+  overflow: hidden;
+}
+
+.navbar a {
+  color: coral;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  text-decoration: none;
+  padding: 0.3125em;
+  display: block;
+  text-align: center;
+  margin-left: 2.5em;
+  font-size: 1.25em;
+}
+
+.navbar a:hover {
+  background-color: rgb(84, 82, 82);
+  border-radius: 10%;
+}
+
+.navbar li {
+  float: left;
+}
+
+p.about {
+  color: coral;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+}
+
+.button {
+  left: 83vw;
+  top: 2.1875rem;
+  background-color: coral;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.25em;
+  font-weight: 800;
+  padding: 0.625em 0.9375em;
+  border-radius: 5%;
+  cursor: pointer;
+  border-radius: 13%;
+}
+
+.dropdown a {
+  display: block;
+  padding: 0.625em 0.9375em;
+}
+
+.dropdown .content {
+  display: none;
+  position: absolute;
+
+  background-color: rgb(49, 43, 43);
+  min-width: 6.25em;
+  border-radius: 5%;
+  box-shadow: 0.125em 0.125em 0.3125em coral;
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
+/*For the about html page*/
+.native {
+  background-color: rgb(62, 61, 61);
+}
+
+.enjoy {
+  font-family: "Courier New", Courier, monospace;
+  color: coral;
+  font-weight: 800;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+}
+
+.nope {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16em;
+  height: 14em;
+}
+
+.styling {
+  background-color: rgb(49, 43, 43);
+
+  margin-top: 5em;
+  box-shadow: 0.5em 0.5em 3.75em coral;
+  border-radius: 4%;
+  padding: 1em;
+}
+
+/*For the skills html page*/
+.inc {
+  text-align: center;
+  color: coral;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.7em;
+  background-color: rgb(49, 43, 43);
+  border-radius: 2%;
+  margin-top: 1em;
+  margin-left: 20vw;
+  margin-right: 20vw;
+
+  justify-content: space-between;
+
+  box-shadow: 0.5em 0.5em 3.75em coral;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 0.625em;
+}
+
+.integrate,
+.tornado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  margin-bottom: 0.625em;
+}
+
+/*This is for the projects page*/
+.class-styling {
+  padding: 1em;
+  color: coral;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  background-color: rgb(49, 43, 43);
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+  gap: 1.25em; /* Space between the columns */
+}
+
+.divide {
+  color: coral;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.class-styling {
+  border: 0.3em solid rgb(84, 82, 82);
+  border-style: inset;
+  box-shadow: 0.5em 0.5em 3.75em coral;
+}
+
+.tictactoe-text {
+  width: 45%;
+}
+
+.tictactoe {
+  display: flex;
+}
+
+.align-image {
+  margin-left: 1.5em;
+  margin-bottom: 0.5em;
+}
+.done {
+  border: 0.2em solid coral;
+}
+
+/* this will cover all buttons on the projects page */
+
+.file {
+  margin-left: 1.5em;
+  border-radius: 5%;
+  background-color: coral;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  h1.program {
+    width: 100%;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+
+  .button {
+    position: none;
+  }
+
+  .first {
+    font-size: 1em;
+  }
+  .contained {
+    width: 100%;
+  }
+
+  .class-styling {
+    grid-template-columns: none;
+  }
+
+  .content {
+    width: 100%;
+  }
+  .option {
+    width: 100%;
+  }
+  .email,
+  .phone {
+    font-size: 1em;
+  }
+  html {
+    width: 100%;
+  }
+
+  .inc {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .normal {
+    margin-left: 20vw;
+  }
+}
