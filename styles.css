@@ -121,6 +121,7 @@ body {
   border-radius: 10%;
 }
 
+
 .navbar li {
   float: left;
 }
@@ -178,6 +179,57 @@ p.about {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
 }
+
+.about-header {
+  color: coral;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 1em;
+  border-bottom: 2px solid coral;
+  padding-bottom: 0.5em;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(49, 43, 43);
+  border: 1px outset coral;
+  
+  
+  padding: 2em;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 3em;
+  color: white;
+}
+
+.about-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid coral;
+  margin-top: 1em;
+}
+
+.about-description {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #fff;
+  max-width: 800px;
+  margin: 1.5em auto 0;
+  text-align: justify;
+}
+
+.about-info p {
+  margin-top: 1em;
+}
+
 
 .nope {
   width: 150px;
@@ -256,6 +308,11 @@ img {
 }
 
 /* Card Style for Each Project */
+
+.project-info {
+  display: flex;
+}
+
 .project-card {
   background-color: rgb(62, 61, 61);
   padding: 1.5em;
@@ -271,6 +328,7 @@ img {
 
 .project-image {
   width: 100%;
+  height: 50%;
   border-radius: 10px;
   margin-bottom: 1em;
   object-fit: cover;
@@ -280,7 +338,7 @@ img {
   font-size: 1em;
   line-height: 1.6;
   color: #fff;
-  margin-bottom: 1.5em;
+  margin-bottom: 19vh;
 }
 
 .project-footer {
@@ -288,6 +346,15 @@ img {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  
+}
+
+.project-footer-1 {
+  margin-top: 1vh;
+}
+
+.project-footer-2 {
+  margin-top: 2.1vh;
 }
 
 .project-title {
@@ -341,13 +408,12 @@ img {
 
   
   
+  
 }
 
 
 @media only screen and (max-width: 768px) {
-  .navbar {
-    width: 100%;
-  }
+  
 
   .container {
     width: 100%;
@@ -491,7 +557,15 @@ img {
   .footer-div {
     margin-right: 2vw;
     margin-left: 2vw;
+    
+  }
+
+  .project-description {
+    margin-bottom: 30vh;
   }
 
   
+
+  
 }
+
