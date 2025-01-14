@@ -112,7 +112,8 @@ body {
   padding: 0.3125em;
   display: block;
   text-align: center;
-  margin-left: 2.5em;
+  margin-left: 2em;
+  
   font-size: 1.25em;
 }
 
@@ -460,7 +461,9 @@ img {
     margin-right: 0;
   }
 
-  
+  .navbar a {
+    margin-left: 3em;
+  }
   
 }
 
@@ -549,9 +552,40 @@ img {
     margin-left: 2vw;
   }
 
+  .navbar a {
+    margin-left: 1em;
+    
+  }
+
   
 }
 
+
+@media only screen and (max-width: 361px) {
+  
+
+  .navbar a {
+    margin-left: 0.5em;
+    
+    
+  }
+
+  
+}
+
+
+
+@media only screen and (max-width: 430px) {
+  
+
+  .navbar a {
+    margin-left: 1em;
+    
+    
+  }
+
+  
+}
 
 @media only screen and (max-width: 540px) {
   .footer-div {
