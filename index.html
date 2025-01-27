@@ -1,90 +1,262 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="about" href="about.html" />
-    <link rel="about" href="projects.html" />
-    <link
-      rel="shortcut icon"
-      class="cngimage"
-      type="x-icon"
-      href="Resources/joe.png"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
-    <title>Jacob Allen: Professional Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-
-  <body class="option">
-    <nav class="navbar">
-      <ul class="ul-center">
-        <div class="normal">
-          
-          <li class="list-margin">
-            <a href="projects.html"
-              ><i class="fa-solid fa-diagram-project icon-spacing"></i
-              >Projects</a
-            >
-          </li>
-          <li class="list-margin">
-            <a href="https://northwestms-my.sharepoint.com/:w:/g/personal/341624_northwestms_edu/EZGF__EBM-5Nijco5lByDBkB3om-EbkLymgbUt7uw6R56g?e=svCyUD">
-              <i class="fa-solid fa-file icon-spacing"></i>Resume</a
-            >
-          </li>
-          <li class="list-margin">
-            <a href="skills.html"
-              ><i class="fa-regular fa-hand icon-spacing"></i>Skills</a
-            >
-          </li>
-
-          <li class="list-margin">
-            <a href="#footer" class="contacts-button">
-              <i class="fa-solid fa-arrow-down-long icon-spacing"></i>
-              Contacts
-            </a>
-          </li>
-        </div>
-        <!-- New Contacts Button -->
-        
-      </ul>
-    </nav>
-
-    <h1 class="program">Jacob Allen</h1>
-
-    <div class="container">
-      <h2 class="first">Welcome to My Professional Portfolio</h2>
-      
-    </div>
-    <div class="about-image-container">
-      <div class="about-info">
-        <h1 class="about-header">About Me</h1>
-        <img class="about-img" src="images/DSC_0669.JPG" alt="Jacob Allen" />
-        <p class="about-description">
-          My name is Jacob Allen, and I went to Olive Branch High School. While in high school, I participated in various clubs and activities like the marching band, National Honor Society, and the Information Technology program at Career Tech Center East. I have always admired computer science and video game design from a young age, which made me eager to apply to Base Camp Coding Academy. I graduated Olive Branch High School May 18, 2024, and then I moved to Water Valley ten days later to start my coding journey in Python. In my free time, I enjoy playing video games and driving out to Sarah, MS, to go trail riding on my dirt bike.
-        </p>
-      </div>
-    </div>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Jacob Allen</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Jacob Allen</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Projects</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skill">Skills</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="assets/jacoballenresume.pdf" target="_blank">Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Jacob Allen</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                    <div class="divider-custom-line"></div>
+               \
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Software Developer</p>
+            </div>
+            <section class="page-section bg-primary text-white mb-0" id="about">
+                <div class="container">
+                   
+                    <!-- About Section Content-->
+                    <div class="row">
+                        <div class="col-12"><p class="lead">My name is Jacob Allen, and I went to Olive Branch High School. While in high school, I participated in various clubs and activities like the marching band, National Honor Society, and the Information Technology program at Career Tech Center East. I have always admired computer science and video game design from a young age, which made me eager to apply to Base Camp Coding Academy. I graduated Olive Branch High School May 18, 2024, and then I moved to Water Valley ten days later to start my coding journey in Python. In my free time, I enjoy playing video games and driving out to Sarah, MS, to go trail riding on my dirt bike.</p></div>
+                    </div>
+                 
+                </div>
+            </section>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fa-solid fa-laptop"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto">
+                            <a
+                            href="https://github.com/jacoba2024through2025/YouPlan-It"
+                            target="_blank"
+                          ><div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <h3>You Plan-it</h3>
+                                    <p>You Plan-it was the second Django project I created. Users can sign in, create an account, and use their dashboard to create and edit their own events.</p>
+                                </div>
+                            </div></a>
+                            <img class="img-fluid" src="assets/img/portfolio/event.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto">
+                            <a
+                            href="https://github.com/jacoba2024through2025/Unit5Project"
+                            target="_blank"
+                          ><div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <h3>Student Kitchen</h3>
+                                    <p>
+                                        Student Kitchen is a website where you can filter other users' recipes by searching using a searchbar and premade checkboxes.
+                                    </p>
+                                </div>
+                            </div></a>
+                            <img class="img-fluid" src="assets/img/portfolio/student.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto">
+                            <a
+                            href="https://jabasecamp2524.itch.io/wanderworld"
+                            target="_blank"
+                            ><div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <h3>Wanderworld</h3>
+                                    <p>
+                                    Wanderworld is a simple 2D platformer with an inventory and crafting system.
+                                    Players can fight enemies, take on quests, collect objects like rocks and tree logs, and explore the map.
+                                  </p></div>
+                            </div></a>
+                            <img class="img-fluid" src="assets/img/portfolio/save.png" alt="..." />
+                        </div>
+                    </div>         
+                </div>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="skill">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Skills</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"> <i class="fas fa-laptop-code"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/python.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/Java.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/django.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/react.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/html.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/css.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 7-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/Javascript.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 8-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal8">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/godot.png" alt="..." />
+                        </div> 
+                    </div>
+                    <!-- Portfolio Item 9-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal9">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/spring.png" alt="..." />
+                        </div>
+                    </div> 
+            </div>
+        </section>
     
-
-    <footer class="footer" id="footer"> <!-- Added ID 'footer' -->
-      <div class="footer-div">
-        <h2 class="footer-header">Contact Information</h2>
-        <ul>
-          <li><p class="para-styling"><i class="fa-solid fa-phone icon-spacing"></i>Call me: 901-315-1566</p></li>
-          <li><a href="mailto:jallen25@basecampcodingacademy.org"><i class="fa-solid fa-envelope icon-spacing"></i>Email: jallen25@basecampcodingacademy.org</a></li>
-          <li><a href="https://www.linkedin.com/in/jacob-allen-814748322/" target="_blank"><i class="fa-brands fa-linkedin icon-spacing"></i>LinkedIn</a></li>
-          <li><a href="https://github.com/jacoba2024through2025" target="_blank"><i class="fa-brands fa-github icon-spacing"></i>GitHub</a></li>
-        </ul>
-      </div>
-    </footer>
-  </body>
+        <!-- Footer-->
+        <footer class="footer text-center" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" style="color: white;">Contact Me</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-comment"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            Southaven, MS 
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Follow Me</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="mailto:jallen25@basecampcodingacademy.org" target="_blank"><i class="fas fa-envelope""></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/jacoba2024through2025" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/jacob-allen-814748322/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">Email Me</h4>
+                        <p class="lead mb-0">
+                            jallen25@basecampcodingacademy.org
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Jacob Allen 2025</small></div>
+        </div>
+       
+      
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
-
-
